@@ -43,5 +43,5 @@ melted_ds = melt(final_ds, id.var = c("Subject", "Activity"))
 ## calculating mean by groups of subject and activity
 tidy_ds = dcast(melted_ds , Subject + Activity ~ variable, mean)
 
-## Saving the final tidy data set
+#Saving the final tidy data set
 write.table(tidy_ds,"final_tidy_data_set.txt", row.names = FALSE)
