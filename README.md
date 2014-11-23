@@ -29,7 +29,7 @@ You should create one R script called run_analysis.R that does the following.
 2)CodeBook.md: Describes the variables
 ## How the script works
 
-    Step 1 - The first thing the script will do ir to download the data set from the link given by Coursera. Then, it will save and unzip the file in the working space;
+    Step 1 - The first thing the script will do is to download the data set from the link given by Coursera. Then, it will save and unzip the file in the working space;
     Step 2 - The script will read all txt files from UCI HAR Dataset folder into variables;
     Step 3 - The script gets the features names and assign test and training dataset column names, and set descriptive names to the subject and activity columns;
     Step 4 - Using cbind(), binds all dataset related to train and all related to test (subject, x, y);
