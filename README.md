@@ -1,4 +1,4 @@
-G-C-D_Project
+Getting and Cleaning Data Project
 =============
 ##Project description (Original description from Coursera)
 
